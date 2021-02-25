@@ -1,8 +1,9 @@
 package main
 
 import (
-	"github.com/mschlech/beelogger-service/app/handler"
 	"net/http"
+
+	"github.com/mschlech/beelogger-hiveservice/cmd/beelogger-webservice/handler"
 )
 
 type Route struct {

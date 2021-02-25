@@ -1,12 +1,13 @@
 package handler
 
 import (
-	"github.com/gorilla/mux"
-	"github.com/mschlech/beelogger-service/app/dao"
-	"github.com/mschlech/beelogger-service/app/models"
-	"go.mongodb.org/mongo-driver/bson/primitive"
 	"log"
 	"net/http"
+
+	"github.com/gorilla/mux"
+	"github.com/mschlech/beelogger-hiveservice/cmd/beelogger-webservice/dao"
+	"github.com/mschlech/beelogger-hiveservice/cmd/beelogger-webservice/models"
+	"go.mongodb.org/mongo-driver/bson/primitive"
 )
 
 var hiveId int

@@ -2,7 +2,6 @@ package models
 
 import (
 	"go.mongodb.org/mongo-driver/bson/primitive"
-	_ "gopkg.in/mgo.v2/bson"
 )
 
 type Hive struct {
